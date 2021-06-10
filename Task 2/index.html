@@ -1,0 +1,159 @@
+<html>
+  <head>
+    <title>Survey Form</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>    
+      <div class="container">
+        <form>
+          <div class="row">
+              <div class="col-6">
+                
+                    <div class="inline">
+                    <div class="form-group col-6">
+                        <label for="firstName" class="sr-only">First Name</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="First Name" required>
+                      </div>
+                    <div class="form-group col-6">
+                      <label for="lastName" class="sr-only">Last Name</label>
+                      <input type="text" class="form-control" id="lastName" placeholder="Last Name" required>
+                    </div>
+                </div>
+                  <div class="form-group col-12">
+                        <label for="email" class="sr-only">Email </label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email id" required>
+                    </div>
+                    <div class="col-6">
+                        <label for="">Your Experience:</label><br>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+              </div>
+              <div class="col-6"></div>
+          </div>
+          <br>
+          <div class="row">
+              <div class="col-12">
+                  <p><b>How satisfied are you with us?</b></p>
+                  <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th scope="col"></th>
+                        <th scope="col">Very Unsatisfied</th>
+                        <th scope="col">Unsatisfied</th>
+                        <th scope="col">Neutral</th>
+                        <th scope="col">Satisfied</th>
+                        <th scope="col">Very Satisfied</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">Purchase</th>
+                        <td><input id="1" value="1" name="purchase" type="radio"><label for="1"></label></td>
+                        <td><input id="2" value="2" name="purchase" type="radio"><label for="2"></label></td>
+                        <td><input id="3" value="3" name="purchase" type="radio"><label for="3"></label></td>
+                        <td><input id="4" value="4" name="purchase" type="radio"><label for="4"></label></td>
+                        <td><input id="5" value="5" name="purchase" type="radio"><label for="5"></label></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Service</th>
+                        <td><input id="1" value="1" name="service" type="radio"><label for="1"></label></td>
+                        <td><input id="2" value="2" name="service" type="radio"><label for="2"></label></td>
+                        <td><input id="3" value="3" name="service" type="radio"><label for="3"></label></td>
+                        <td><input id="4" value="4" name="service" type="radio"><label for="4"></label></td>
+                        <td><input id="5" value="5" name="service" type="radio"><label for="5"></label></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Company overall</th>
+                        <td><input id="1" value="1" name="overall" type="radio"><label for="1"></label></td>
+                        <td><input id="2" value="2" name="overall" type="radio"><label for="2"></label></td>
+                        <td><input id="3" value="3" name="overall" type="radio"><label for="3"></label></td>
+                        <td><input id="4" value="4" name="overall" type="radio"><label for="4"></label></td>
+                        <td><input id="5" value="5" name="overall" type="radio"><label for="5"></label></td>
+                      </tr>
+                    </tbody>
+                  </table>
+<br>
+                  <p><b>How likely would you recommend us?</b></p>
+                  <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th scope="col"></th>
+                        <th scope="col">Very Unlikely</th>
+                        <th scope="col">Unlikely</th>
+                        <th scope="col">Neutral</th>
+                        <th scope="col">Likely</th>
+                        <th scope="col">Very Likely</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">Buy from us again</th>
+                        <td><input id="1" value="1" name="buy" type="radio"><label for="1"></label></td>
+                        <td><input id="2" value="2" name="buy" type="radio"><label for="2"></label></td>
+                        <td><input id="3" value="3" name="buy" type="radio"><label for="3"></label></td>
+                        <td><input id="4" value="4" name="buy" type="radio"><label for="4"></label></td>
+                        <td><input id="5" value="5" name="buy" type="radio"><label for="5"></label></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Recommend to others</th>
+                        <td><input id="1" value="1" name="recommend" type="radio"><label for="1"></label></td>
+                        <td><input id="2" value="2" name="recommend" type="radio"><label for="2"></label></td>
+                        <td><input id="3" value="3" name="recommend" type="radio"><label for="3"></label></td>
+                        <td><input id="4" value="4" name="recommend" type="radio"><label for="4"></label></td>
+                        <td><input id="5" value="5" name="recommend" type="radio"><label for="5"></label></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Visit us again</th>
+                        <td><input id="1" value="1" name="visit" type="radio"><label for="1"></label></td>
+                        <td><input id="2" value="2" name="visit" type="radio"><label for="2"></label></td>
+                        <td><input id="3" value="3" name="visit" type="radio"><label for="3"></label></td>
+                        <td><input id="4" value="4" name="visit" type="radio"><label for="4"></label></td>
+                        <td><input id="5" value="5" name="visit" type="radio"><label for="5"></label></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <p><b>Addition comments or suggestions:</b></p>
+                  <textarea name="" id="" rows="10" class="col-12"></textarea>
+              </div>
+          </div>
+          <br>
+          
+          <div class="row">
+              <div class="col-3">
+                <button type="submit" class="btn btn-primary mb-2">Submit</button>
+              </div>
+          </div>
+        </form>
+      </div>
+    
+
+
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

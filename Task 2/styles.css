@@ -1,0 +1,11 @@
+.container{
+    margin-top: 3%;
+}
+
+.inline{
+    display: flex;
+}
+
+.checked{
+    color: orange;
+}
